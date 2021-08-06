@@ -3,12 +3,11 @@ public class Robot {
 
     public Robot(String name) {
         this.name = name;
-        info();
-
+        System.out.println("Создан робот " + name);
     }
 
     public void info() {
-        System.out.println("Создан робот " + name);
+        System.out.print(name);
 
     }
 

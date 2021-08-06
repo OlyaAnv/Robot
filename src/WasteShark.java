@@ -8,6 +8,7 @@ public class WasteShark extends SwimRobot {
 
     @Override
     public void action() {
+        info();
         System.out.println("Убираю морское дно. Грузоподъемность " + capacity + " кг. мусора");
     }
 }
