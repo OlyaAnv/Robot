@@ -1,6 +1,5 @@
-public class FlyRobot extends Robot {
-    public FlyRobot(String name) {
+abstract public class FlyRobot extends Robot implements Movable  {
+     public FlyRobot(String name) {
         super(name);
     }
-
 }

@@ -11,4 +11,14 @@ public class WasteShark extends SwimRobot {
         info();
         System.out.println("Убираю морское дно. Грузоподъемность " + capacity + " кг. мусора");
     }
+
+    @Override
+    public void moveUp(float h) {
+
+    }
+
+    @Override
+    public void moveDown(float h) {
+
+    }
 }

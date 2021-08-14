@@ -1,4 +1,4 @@
-public class Robot {
+abstract public class Robot {
     private String name;
 
     public Robot(String name) {
@@ -8,9 +8,7 @@ public class Robot {
 
     public void info() {
         System.out.print(name);
-
     }
 
-    public void action() {
-    }
+    public abstract void action();
 }

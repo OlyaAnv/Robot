@@ -1,5 +1,5 @@
 public class Work {
-    Robot[] robots;
+    private Robot[] robots;
     public Work(int number) {
 
         robots = new Robot[number];
