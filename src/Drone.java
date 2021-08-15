@@ -10,6 +10,7 @@ public class Drone extends FlyRobot {
 
     @Override
     public void action() {
+        System.out.println("Дрон следит за чьей-то дачей");
     }
 
     public void moveUp(float flightAltitude) {
@@ -53,7 +54,7 @@ public class Drone extends FlyRobot {
             moveDown(0);
         }
 
-        void setflyAltitude(float flightAltitude) {
+        void setFlyAltitude(float flightAltitude) {
             Drone.this.flightAltitude = flightAltitude;
             System.out.println("Установлена высота " + flightAltitude + " м.");
         }

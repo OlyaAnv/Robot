@@ -5,7 +5,7 @@ public class Main {
         Drone drone = new Drone("Петя");
         Drone.Remote remote = drone.remote;
         remote.on();
-        remote.setflyAltitude(2f);
+        remote.setFlyAltitude(2f);
         remote.fly();
         remote.off();
         remote.land();

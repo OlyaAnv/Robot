@@ -1,5 +1,6 @@
 public class WasteShark extends SwimRobot {
     private int capacity;
+    private float depth;
 
     WasteShark(String name, int capacity) {
         super(name);
@@ -13,12 +14,16 @@ public class WasteShark extends SwimRobot {
     }
 
     @Override
-    public void moveUp(float h) {
+    public void moveUp(float depth) {
+        this.depth = depth;
+        System.out.println("Уборщик всплывает");
 
     }
 
     @Override
-    public void moveDown(float h) {
+    public void moveDown(float depth) {
+        this.depth = depth;
+        System.out.println("Уборщик погружается");
 
     }
 }
